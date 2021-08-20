@@ -1,0 +1,9 @@
+steps:
+- name: 'gcr.io/pocs-sandbox/packer'
+  args:
+  - build
+  - -var
+  - project_id=pocs-sandbox
+  - -var
+  - image_zone=us-east1-b
+  - packer.json
