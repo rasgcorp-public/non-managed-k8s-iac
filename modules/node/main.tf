@@ -7,7 +7,7 @@ resource "google_compute_instance" "node" {
 
   boot_disk {
     initialize_params {
-      image = "k8s-node-2021-08-13t22-29-53z"
+      image = "k8s-node-2021-08-20t15-41-23z"
     }
   }
 
